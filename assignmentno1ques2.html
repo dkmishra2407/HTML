@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+    <h1>My Bio Data</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for "fname">First Name</label>
+        <input type="text" placeholder="Enter the First Name">
+        &nbsp;
+        <label for "lname">Last Name</label>
+        <input type="text" placeholder="Enter the Last Name">
+        <br><br>
+        <label>Gender:</label>
+        &nbsp;&nbsp;
+        <label>Male</label>
+        <input type="radio"  name="gender">
+        &nbsp;
+        <label>Female</label>
+        <input type="radio" name="gender">
+        &nbsp;
+        <label>Others</label>
+        <input type="radio" name="gender">
+        <br><br>
+        <label>Date Of Birth</label>
+        <input type="date" max="2023-10-10">
+        <br><br>
+        <label>Email</label>
+        <input type="text" autocomplete="on" required placeholder="Enter the Email">
+        <br><br>
+        <label>Phone</label>
+        <input type="tel" maxlength="10" placeholder="+91">
+        <br><br>
+        <label>Height</label>
+        <input type="number" min="3" max="10" placeholder="Height in Feet">
+        <br><br>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Education</legend>
+        <label>School Name</label>
+        <input type="text" placeholder="School Name">
+        <br><br>
+        <label>Class</label>
+        <input type="text" placeholder="Enter Class">
+        <br><br>
+        <label>Stream</label>
+        <!-- <input type="range" min="1" max="12"> -->
+        <select>userstream
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        </select>
+        <br><br>
+        <label>Marksheet</label>
+        <input type="file">
+        <br><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="submit">
+        <input type="Reset" value="Reset">
+
+    </form>
+    
+</body>
+</html>
